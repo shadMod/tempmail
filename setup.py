@@ -19,7 +19,7 @@ def get_install_requires() -> list:
 
 
 setuptools.setup(
-    name="tempmail",
+    name="tempmail-python3",
     version=__version__,
     author="shadMod",
     author_email="support@shadmod.it",
