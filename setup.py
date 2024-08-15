@@ -2,7 +2,7 @@ from pathlib import Path
 
 import setuptools
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -42,7 +42,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
     ],
-    packages=["src"],
+    packages=["tempmail", "tempmail.src"],
     install_requires=get_install_requires(),
     python_requires=">=3.10",
 )
